@@ -38,21 +38,21 @@
 		DE3A69C61503E13200C42B5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE3A69C81503E13200C42B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE3A69CA1503E13200C42B5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE3A69CE1503E13200C42B5E /* BSSingleton-Info.plist */ = {isa = PBXFileReference; path = "BSSingleton-Info.plist"; sourceTree = "<group>"; };
+		DE3A69CE1503E13200C42B5E /* BSSingleton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSSingleton-Info.plist"; sourceTree = "<group>"; };
 		DE3A69D01503E13200C42B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE3A69D21503E13200C42B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE3A69D41503E13200C42B5E /* BSSingleton-Prefix.pch */ = {isa = PBXFileReference; path = "BSSingleton-Prefix.pch"; sourceTree = "<group>"; };
-		DE3A69D51503E13200C42B5E /* BSAppDelegate.h */ = {isa = PBXFileReference; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		DE3A69D41503E13200C42B5E /* BSSingleton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSSingleton-Prefix.pch"; sourceTree = "<group>"; };
+		DE3A69D51503E13200C42B5E /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
 		DE3A69D61503E13200C42B5E /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
 		DE3A69D91503E13200C42B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DE3A69DC1503E13200C42B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DE3A69DE1503E13200C42B5E /* BSViewController.h */ = {isa = PBXFileReference; path = BSViewController.h; sourceTree = "<group>"; };
+		DE3A69DE1503E13200C42B5E /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
 		DE3A69DF1503E13200C42B5E /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
 		DE3A69E61503E13200C42B5E /* BSSingletonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSSingletonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3A69E71503E13200C42B5E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DE3A69EF1503E13200C42B5E /* BSSingletonTests-Info.plist */ = {isa = PBXFileReference; path = "BSSingletonTests-Info.plist"; sourceTree = "<group>"; };
+		DE3A69EF1503E13200C42B5E /* BSSingletonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSSingletonTests-Info.plist"; sourceTree = "<group>"; };
 		DE3A69F11503E13200C42B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE3A69F31503E13200C42B5E /* BSSingletonTests.h */ = {isa = PBXFileReference; path = BSSingletonTests.h; sourceTree = "<group>"; };
+		DE3A69F31503E13200C42B5E /* BSSingletonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSingletonTests.h; sourceTree = "<group>"; };
 		DE3A69F41503E13200C42B5E /* BSSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSingletonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
