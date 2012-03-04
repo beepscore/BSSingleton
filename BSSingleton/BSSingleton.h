@@ -10,4 +10,6 @@
 
 @interface BSSingleton : NSObject
 
++ (BSSingleton *)sharedBSSingleton;
+
 @end
