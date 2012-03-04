@@ -11,18 +11,22 @@
 @implementation BSSingleton
 
 // References:
-// Mike Ash Friday Q&A 2009-09-18 "One Time Initialization"
-// <http://www.mikeash.com/pyblog/friday-qa-2009-09-18-intro-to-grand-central-dispatch-part-iv-odds-and-ends.html>
-// <http://cocoasamurai.blogspot.com/2011/04/singletons-your-doing-them-wrong.html>
-
+// <http://stackoverflow.com/questions/2199106/thread-safe-instantiation-of-a-singleton>
 + (BSSingleton *)sharedBSSingleton {
+    static BSSingleton *bsSingleton = nil;
     static dispatch_once_t pred;
-    static BSSingleton *shared = nil;
     
-    dispatch_once(&pred, ^{
-        shared = [[BSSingleton alloc] init];
+    // NOTE:
+    // "if the -init of the class being allocated happens to call 
+    // the sharedInstance method, it will do so before the variable is set. 
+    // In both cases it will lead to a deadlock.
+    // This is the one time that you want to separate the alloc and the init."
+    // <http://stackoverflow.com/questions/2199106/thread-safe-instantiation-of-a-singleton>
+    dispatch_once(&pred, ^{ 
+        bsSingleton = [BSSingleton alloc];
+        bsSingleton = [bsSingleton init];
     });
-    return shared;
+    return bsSingleton;
 }
 
 @end
