@@ -3,17 +3,21 @@ BSSingleton is a Cocoa iOS universal app to practice using singletons.
 
 #References:
 Mike Ash Friday Q&A 2009-09-18 "One Time Initialization"
+
 <http://www.mikeash.com/pyblog/friday-qa-2009-09-18-intro-to-grand-central-dispatch-part-iv-odds-and-ends.html>
 
 <http://cocoasamurai.blogspot.com/2011/04/singletons-your-doing-them-wrong.html>
 
 <http://stackoverflow.com/questions/137975/what-is-so-bad-about-singletons>
+
 Buck and Yacktman Cocoa Design Patterns 2010
 
 This post by Graham Lee and the comment by Paul Goracke talk about using singletons/shared instances in ways that are easier to unit test.
 <http://blog.securemacprogramming.com/2011/02/on-singletons/>
 
 ---
+#Results:
+
 ##Using singletons
 Cocoa uses singletons such as the app delegate.
 Many people recommend avoiding singletons wherever possible.
