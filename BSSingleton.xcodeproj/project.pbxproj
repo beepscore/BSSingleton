@@ -21,6 +21,7 @@
 		DE3A69EA1503E13200C42B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3A69C81503E13200C42B5E /* Foundation.framework */; };
 		DE3A69F21503E13200C42B5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE3A69F01503E13200C42B5E /* InfoPlist.strings */; };
 		DE3A69F51503E13200C42B5E /* BSSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3A69F41503E13200C42B5E /* BSSingletonTests.m */; };
+		DE6DDB701503E4360050E6EB /* BSSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6DDB6F1503E4360050E6EB /* BSSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		DE3A69F41503E13200C42B5E /* BSSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSingletonTests.m; sourceTree = "<group>"; };
 		DE5E60D51503E2550028EE39 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE5E60D61503E2550028EE39 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DE6DDB6E1503E4360050E6EB /* BSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSingleton.h; sourceTree = "<group>"; };
+		DE6DDB6F1503E4360050E6EB /* BSSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +122,12 @@
 			children = (
 				DE3A69D51503E13200C42B5E /* BSAppDelegate.h */,
 				DE3A69D61503E13200C42B5E /* BSAppDelegate.m */,
-				DE3A69D81503E13200C42B5E /* MainStoryboard_iPhone.storyboard */,
-				DE3A69DB1503E13200C42B5E /* MainStoryboard_iPad.storyboard */,
+				DE6DDB6E1503E4360050E6EB /* BSSingleton.h */,
+				DE6DDB6F1503E4360050E6EB /* BSSingleton.m */,
 				DE3A69DE1503E13200C42B5E /* BSViewController.h */,
 				DE3A69DF1503E13200C42B5E /* BSViewController.m */,
+				DE3A69D81503E13200C42B5E /* MainStoryboard_iPhone.storyboard */,
+				DE3A69DB1503E13200C42B5E /* MainStoryboard_iPad.storyboard */,
 				DE3A69CD1503E13200C42B5E /* Supporting Files */,
 			);
 			path = BSSingleton;
@@ -270,6 +275,7 @@
 				DE3A69D31503E13200C42B5E /* main.m in Sources */,
 				DE3A69D71503E13200C42B5E /* BSAppDelegate.m in Sources */,
 				DE3A69E01503E13200C42B5E /* BSViewController.m in Sources */,
+				DE6DDB701503E4360050E6EB /* BSSingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
