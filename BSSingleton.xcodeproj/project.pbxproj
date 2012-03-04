@@ -54,6 +54,8 @@
 		DE3A69F11503E13200C42B5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE3A69F31503E13200C42B5E /* BSSingletonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSingletonTests.h; sourceTree = "<group>"; };
 		DE3A69F41503E13200C42B5E /* BSSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSingletonTests.m; sourceTree = "<group>"; };
+		DE5E60D51503E2550028EE39 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE5E60D61503E2550028EE39 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,8 @@
 		DE3A69B71503E13200C42B5E = {
 			isa = PBXGroup;
 			children = (
+				DE5E60D51503E2550028EE39 /* LICENSE */,
+				DE5E60D61503E2550028EE39 /* README */,
 				DE3A69CC1503E13200C42B5E /* BSSingleton */,
 				DE3A69ED1503E13200C42B5E /* BSSingletonTests */,
 				DE3A69C51503E13200C42B5E /* Frameworks */,
@@ -445,6 +449,7 @@
 				DE3A69FA1503E13200C42B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE3A69FB1503E13200C42B5E /* Build configuration list for PBXNativeTarget "BSSingletonTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +458,7 @@
 				DE3A69FD1503E13200C42B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
