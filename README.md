@@ -6,6 +6,7 @@ BSSingleton is a Cocoa iOS universal app to practice using singletons.
 <http://stackoverflow.com/questions/2199106/thread-safe-instantiation-of-a-singleton>
 
 Mike Ash Friday Q&A 2009-10-02: Care and Feeding of Singletons
+
 <http://www.mikeash.com/pyblog/friday-qa-2009-10-02-care-and-feeding-of-singletons.html>
 
 <http://cocoasamurai.blogspot.com/2011/04/singletons-your-doing-them-wrong.html>
