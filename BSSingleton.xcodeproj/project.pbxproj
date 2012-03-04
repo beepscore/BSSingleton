@@ -56,9 +56,9 @@
 		DE3A69F31503E13200C42B5E /* BSSingletonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSSingletonTests.h; sourceTree = "<group>"; };
 		DE3A69F41503E13200C42B5E /* BSSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSSingletonTests.m; sourceTree = "<group>"; };
 		DE5E60D51503E2550028EE39 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DE5E60D61503E2550028EE39 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DE6DDB6E1503E4360050E6EB /* BSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSingleton.h; sourceTree = "<group>"; };
 		DE6DDB6F1503E4360050E6EB /* BSSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSingleton.m; sourceTree = "<group>"; };
+		DE8814D61503E7B3000C112D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 		DE3A69B71503E13200C42B5E = {
 			isa = PBXGroup;
 			children = (
+				DE8814D61503E7B3000C112D /* README.md */,
 				DE5E60D51503E2550028EE39 /* LICENSE */,
-				DE5E60D61503E2550028EE39 /* README */,
 				DE3A69CC1503E13200C42B5E /* BSSingleton */,
 				DE3A69ED1503E13200C42B5E /* BSSingletonTests */,
 				DE3A69C51503E13200C42B5E /* Frameworks */,
